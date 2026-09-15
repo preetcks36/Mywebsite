@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#171315">
+    <title>For the boy who became you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="opening" id="opening">
+        <div class="opening__grain"></div>
+        <div class="opening__content">
+            <p class="eyebrow">A private little archive · 01</p>
+            <p class="opening__line">This isn't just a website<span class="dot">.</span></p>
+            <h1>It's a little journey<br><em>through you.</em> <span>♥</span></h1>
+            <p class="opening__note">made from the moments that made you who you are</p>
+            <button class="button button--light" id="beginStory">Begin the story <span>→</span></button>
+        </div>
+        <div class="opening__footer"><span>For one very special person</span><span>Scroll to wander ↓</span></div>
+    </div>
+
+    <main id="story">
+        <nav class="topbar" aria-label="Story navigation">
+            <a class="wordmark" href="#childhood">for <span>you</span></a>
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open story navigation"><span></span><span></span></button>
+            <div class="nav-links" id="navLinks">
+                <a href="#childhood">01 / beginning</a><a href="#journey">02 / journey</a><a href="#cricket">03 /
+                    passion</a><a href="#letter">04 / letter</a><a href="#end">05 / the end</a>
+            </div>
+        </nav>
+
+        <section class="chapter chapter--intro" id="childhood">
+            <div class="chapter__number">01 <span>/</span> before I knew you</div>
+            <div class="intro-grid">
+                <div class="intro-copy reveal">
+                    <p class="eyebrow">The first page</p>
+                    <h2>Before I<br><em>knew you…</em></h2>
+                    <p class="lede">There was this little soul, with a whole life waiting inside him.</p>
+                    <p class="body-copy">He had no idea where the road would take him, or how many people he would
+                        quietly make happier just by being himself. Somewhere in this photograph is the beginning of
+                        everything.</p>
+                    <span class="hand-note">I wish I could tell him…</span>
+                </div>
+                <figure class="memory-frame reveal reveal--delay">
+                    <div class="photo-placeholder" data-photo="assets/gallery/child.jpeg"><span
+                            class="photo-icon">✦</span><strong>Your childhood photo</strong><small></small></div>
+                    <figcaption><span>memory no. 001</span><span>the very beginning</span></figcaption>
+                </figure>
+            </div>
+            <a class="next-link" href="#journey">Turn the page <span>↓</span></a>
+        </section>
+
+        <section class="chapter chapter--journey" id="journey">
+            <div class="chapter__number">02 <span>/</span> and then he grew</div>
+            <div class="section-heading reveal">
+                <p class="eyebrow">A life in little frames</p>
+                <h2>And then<br><em>he grew.</em></h2>
+                <p>Not all at once. In small, unforgettable ways.</p>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item reveal">
+                    <div class="timeline-meta"><span>01</span><span>little him</span></div>
+                    <div class="timeline-photo photo-placeholder" data-photo="assets/gallery/childhood-01.jpeg"><span
+                            class="photo-icon">✦</span><strong>Add a first chapter photo</strong><small>assets /
+                            childhood / childhood-01.jpeg</small></div>
+                    <p>the beginning of a story still being written</p>
+                </article>
+                <article class="timeline-item timeline-item--offset reveal">
+                    <div class="timeline-meta"><span>02</span><span>growing up</span></div>
+                    <div class="timeline-photo photo-placeholder" data-photo="assets/gallery/growing-up.jpg"><span
+                            class="photo-icon">✦</span><strong>Add a growing-up photo</strong><small>assets / gallery /
+                            growing-up.jpg</small></div>
+                    <p>finding his way, one day at a time</p>
+                </article>
+                <article class="timeline-item reveal">
+                    <div class="timeline-meta"><span>03</span><span>the person he became</span></div>
+                    <div class="timeline-photo photo-placeholder" data-photo="assets/gallery/now.jpg"><span
+                            class="photo-icon">✦</span><strong>Add a recent photo</strong><small>assets / gallery /
+                            now.jpg</small></div>
+                    <p>all the versions of him, living in one smile</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="chapter chapter--gallery" id="gallery">
+            <div class="chapter__number">03 <span>/</span> the way I see you</div>
+            <div class="section-heading section-heading--wide reveal">
+                <p class="eyebrow">A collection of small proofs</p>
+                <h2>Everything that<br><em>makes you… you.</em></h2>
+                <p>Every picture captures a little piece of the person you are.</p>
+            </div>
+            <!-- Add his photographs to assets/gallery/ and update the data-photo paths and captions below. -->
+            <div class="gallery-grid">
+                <figure class="gallery-card gallery-card--tall reveal" data-caption="A little piece of you">
+                    <div class="photo-placeholder" data-photo="assets/gallery/gallery-01.jpg"><span
+                            class="photo-icon">✦</span><strong>Add gallery photo</strong><small>assets / gallery /
+                            gallery-01.jpg</small></div>
+                    <figcaption>A little piece of you <span>↗</span></figcaption>
+                </figure>
+                <figure class="gallery-card gallery-card--wide reveal reveal--delay"
+                    data-caption="The moments in between">
+                    <div class="photo-placeholder" data-photo="assets/gallery/gallery-02.jpg"><span
+                            class="photo-icon">✦</span><strong>Add gallery photo</strong><small>assets / gallery /
+                            gallery-02.jpg</small></div>
+                    <figcaption>The moments in between <span>↗</span></figcaption>
+                </figure>
+                <figure class="gallery-card gallery-card--small reveal" data-caption="The smile I keep coming back to">
+                    <div class="photo-placeholder" data-photo="assets/gallery/gallery-03.jpg"><span
+                            class="photo-icon">✦</span><strong>Add gallery photo</strong><small>assets / gallery /
+                            gallery-03.jpg</small></div>
+                    <figcaption>The smile I keep coming back to <span>↗</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="chapter chapter--cricket" id="cricket">
+            <div class="chapter__number">04 <span>/</span> more than just a game</div>
+            <div class="cricket-intro reveal">
+                <div>
+                    <p class="eyebrow">His passion / his language</p>
+                    <h2>More than<br><em>just a game.</em></h2>
+                </div>
+                <p class="cricket-quote">“For you, cricket was never just a game.<br>It was a passion, a dream, a part
+                    of who you are.”</p>
+            </div>
+            <div class="cricket-feature reveal">
+                <div class="cricket-photo photo-placeholder" data-photo="assets/gallery/cricket-01.jpg"><span
+                        class="photo-icon">✦</span><strong>Add his cricket photo</strong><small>assets / gallery /
+                        montage-01.jpg</small></div>
+                <div class="scoreboard"><span class="scoreboard__label">the match-day feeling</span><strong>Play
+                        with<br><em>your whole heart.</em></strong>
+                    <p>My Favorite Cricketer </p>
+                </div>
+            </div>
+            <!-- Replace these values with his real statistics. -->
+            <div class="stats reveal">
+                <div><strong>—</strong><span>All-Rounder</span></div>
+                <div><strong>—</strong><span>RHB</span></div>
+                <div><strong>—</strong><span>Right-arm fast bowler</span></div>
+                <div><strong>—</strong><span>Accumulator</span></div>
+            </div>
+        </section>
+
+        <section class="chapter chapter--special" id="special">
+            <div class="chapter__number">05<span>/</span> the details that are you</div>
+            <div class="section-heading reveal">
+                <p class="eyebrow">The parts I never want to forget</p>
+                <h2>What makes<br><em>you special.</em></h2>
+            </div>
+            <!-- Replace the placeholder copy with real details about him. -->
+            <div class="details-grid">
+                <article class="detail-card reveal"><span>01 /</span>
+                    <h3>Things I love about you</h3>
+                    <p>Thoda Bachpana</p>
+                </article>
+                <article class="detail-card reveal reveal--delay"><span>02 /</span>
+                    <h3>Your little habits</h3>
+                    <p>Hmesha dujeya nu Khush rakhna</p>
+                </article>
+                <article class="detail-card reveal"><span>03 /</span>
+                    <h3>Your best qualities</h3>
+                    <p>Menu enna sara pyar krna</p>
+                </article>
+                <article class="detail-card reveal reveal--delay"><span>04 /</span>
+                    <h3>Your dreams</h3>
+                    <p>Sari duniya nu jittna</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="chapter chapter--montage" id="montage">
+            <div class="montage-copy reveal">
+                <p class="eyebrow">The person behind all these memories</p>
+                <h2>I wanted to collect<br>these little pieces<br>of <em>your life.</em></h2>
+                <p>Your childhood.<br>Your journey.<br>Your passion.<br>Your achievements.<br>Your smiles.<br>Your
+                    memories.</p><strong>Because every version of you<br>is worth remembering.</strong>
+            </div>
+            <div class="montage-stack">
+                <div class="photo-placeholder montage-photo montage-photo--one reveal"
+                    data-photo="assets/gallery/montage-01.jpg"><span class="photo-icon">✦</span><strong>Add a
+                        memory</strong><small>assets / gallery / montage-01.jpg</small></div>
+                <div class="photo-placeholder montage-photo montage-photo--two reveal reveal--delay"
+                    data-photo="assets/gallery/montage-02.jpg"><span class="photo-icon">✦</span><strong>Add a
+                        memory</strong><small>assets / gallery / montage-02.jpg</small></div>
+            </div>
+        </section>
+
+        <section class="chapter chapter--letter" id="letter">
+            <div class="letter-wrap reveal">
+                <p class="eyebrow">06 / the page I was nervous to write</p>
+                <h2>There's something<br>I need to <em>tell you…</em></h2>
+                <div class="letter-paper"><span class="letter-date">for you, always</span>
+                    <p class="hand-note">Mere Sohne Varinder</p><!-- Replace the text below with your real apology. -->
+                    <p class="letter-message">Me hmesha thode nal a. Koi vi mushkil aa jve Tusi menu apne nal khada paoge .Ah chotiya motiya gallan krke appa kde ikk duje to dur ni ho sakde. Me ta bss thode nall  rehna.<br><br>Menu pta sara kuch par mai apni jann to dur nhi reh sakdi kde na hi rehna .</p>
+                    <p class="hand-note letter-signoff">with all my heart,</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="chapter chapter--promise" id="promise">
+            <div class="section-heading reveal">
+                <p class="eyebrow">07 / going forward</p>
+                <h2>Things<br><em>I promise.</em></h2>
+                <p>Promises are little actions, repeated with care.</p>
+            </div><!-- Edit each promise to make it yours. -->
+            <div class="promise-grid">
+                <div class="promise reveal"><span>01</span>
+                    <h3>I am always here for you.</h3>
+                    
+                </div>
+                <div class="promise reveal reveal--delay"><span>02</span>
+                    <h3>Mai thode nal kde gussa ni houngi.</h3>
+                   
+                </div>
+                <div class="promise reveal"><span>03</span>
+                    <h3>Thonu kde tang ni krungi.</h3>
+                   
+                </div>
+                <div class="promise reveal reveal--delay"><span>04</span>
+                    <h3>Thonu hmesha samjhungi</h3>
+             
+                </div>
+            </div>
+        </section>
+
+        <section class="finale" id="finale">
+            <div class="finale__before" id="finalBefore">
+                <p class="eyebrow">08 / one last page</p>
+                <h2>There is one<br>last thing…</h2><button class="button button--gold" id="revealFinal">One last thing
+                    <span>♥</span></button>
+            </div>
+            <div class="finale__after" id="finalAfter">
+                <div class="finale__sparkle">✦</div>
+                <p class="eyebrow">for the person I love</p>
+                <h2>If I could choose one thing,<br>it would be to keep making<br><em>beautiful memories with you.</em>
+                </h2><!-- Replace this final message with your own words. -->
+                <p class="final-message"><br>I love you forever.<br>You are my World”
+                    <span>♥</span></p><a class="button button--light" href="#childhood">Begin again <span>↗</span></a>
+            </div>
+        </section>
+    </main>
+    <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox__close" id="lightboxClose"
+            aria-label="Close image">×</button>
+        <div class="lightbox__image"></div>
+        <p id="lightboxCaption"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
